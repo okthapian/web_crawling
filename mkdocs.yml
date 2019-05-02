@@ -1,0 +1,42 @@
+site_name: Penambangan Web
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+# Customization
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/okthapian
+# Page tree
+
+nav:
+  - Pengenalan: index.md
+  - Text Processing: getting-started.md
+  - Vector Space Model (VSM): specimen.md
+  - TF - IDF: customization.md
+  - Preprocessing: compliance.md
+  - Referensi: release-notes.md
